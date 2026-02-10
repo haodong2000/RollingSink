@@ -20,8 +20,8 @@
     <sup>&#9993;</sup>Corresponding author
 </span>
 
-Please clink below figure watch the teaser video on [YouTube](https://www.youtube.com/watch?v=tdGesjE0vk0).
-[![Demo video](https://img.youtube.com/vi/tdGesjE0vk0/maxresdefault.jpg)](https://www.youtube.com/watch?v=tdGesjE0vk0)
+Please clink the figure below to watch the teaser video on [YouTube](https://www.youtube.com/watch?v=oNFHLi6vrHI).
+[![Demo video](https://img.youtube.com/vi/oNFHLi6vrHI/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNFHLi6vrHI)
 
 ## 📢 News
 - CODE COMING SOON...
