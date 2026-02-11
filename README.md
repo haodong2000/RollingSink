@@ -26,3 +26,20 @@ Please clink the figure below to watch the teaser video on [YouTube](https://www
 ## 📢 News
 - CODE COMING SOON...
 - 2026-02-10 [Paper](https://arxiv.org/abs/2602.07775) released on arXiv!
+
+## 🛠️ Setup
+> This installation was tested on: Ubuntu 24.04 LTS, CUDA 12.4, NVIDIA GeForce RTX 4090.
+
+1. Clone the repository:
+```
+git clone https://github.com/haodong2000/Rolling-Sink.git
+cd Rolling-Sink
+```
+2. Install dependencies using conda:
+```
+conda create -n RS python=3.10 -y
+conda activate RS
+pip install -r requirements.txt
+pip install flash-attn --no-build-isolation
+```
+> The installation of `flash-attn` may take hours. Thank you for your patience.
