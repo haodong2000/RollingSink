@@ -53,8 +53,8 @@ sh shell_scripts/download_ckpt.sh
 COMING SOON...
 
 ## 🕹️ Inference
-1. Prepare prompts under `prompts/`.
-> We've pre-uploaded some examples under `prompts/example/`.
+1. Prepare prompts under `prompts/`
+> We've pre-uploaded some examples under `prompts/example/`
 2. Run the inference command:
 ```
 sh shell_scripts/cuda_i.sh
