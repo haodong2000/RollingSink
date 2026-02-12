@@ -24,11 +24,12 @@ Please clink the figure below to watch the teaser video on [YouTube](https://www
 [![Demo video](https://img.youtube.com/vi/oNFHLi6vrHI/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNFHLi6vrHI)
 
 ## 📢 News
-- CODE COMING SOON...
+- DEMO COMING SOON...
+- 2026-02-11 Code released!
 - 2026-02-10 [Paper](https://arxiv.org/abs/2602.07775) released on arXiv!
 
 ## 🛠️ Setup
-> This installation was tested on: Ubuntu 24.04 LTS, CUDA 12.4, NVIDIA GeForce RTX 4090.
+> This installation was tested on: Ubuntu 20.04, CUDA 12.4, NVIDIA A40.
 
 1. Clone the repository:
 ```
@@ -43,3 +44,35 @@ pip install -r requirements.txt
 pip install flash-attn --no-build-isolation
 ```
 > The installation of `flash-attn` may take hours. Thank you for your patience.
+3. Download checkpoints:
+```
+sh shell_scripts/download_ckpt.sh
+```
+
+## 🤗 Gradio Demo
+COMING SOON...
+
+## 🕹️ Inference
+1. Prepare prompts under `prompts/`.
+> We've pre-uploaded some examples under `prompts/example/`.
+2. Run the inference command:
+```
+sh shell_scripts/cuda_i.sh
+```
+> - `i` $\in$ {`0`,`1`,`2`,`3`}
+> - The default video length is **5-minute**, which requires GPUs with $\geqslant$ **48GB** memory.
+
+## 🎓 Citation
+If you find our work useful in your research, please consider citing our paper🌹:
+```bibtex
+COMING SOON...
+```
+
+## 🤝 Acknowledgement
+This implementation is impossible without the awesome open-cource contributions of:
+- [Self Forcing](https://self-forcing.github.io/)
+- [LongLive](https://nvlabs.github.io/LongLive/)
+- [CausVid](https://causvid.github.io/)
+- [Wan](https://wan.video/)
+- [HuggingFace Hub](https://github.com/huggingface/huggingface_hub)
+- [PyTorch](https://pytorch.org/)
