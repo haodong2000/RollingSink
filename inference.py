@@ -17,7 +17,7 @@ from pipeline import (
 from utils.dataset import TextDataset, TextImagePairDataset
 from utils.misc import set_seed
 
-from demo_utils.memory import gpu, get_cuda_free_memory_gb, DynamicSwapInstaller
+from utils.memory import gpu, get_cuda_free_memory_gb, DynamicSwapInstaller
 import time
 
 parser = argparse.ArgumentParser()
