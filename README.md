@@ -80,5 +80,6 @@ This implementation is impossible without the awesome open-cource contributions 
 - [LongLive](https://nvlabs.github.io/LongLive/)
 - [CausVid](https://causvid.github.io/)
 - [Wan](https://wan.video/)
+- [Gradio](https://github.com/gradio-app/gradio)
 - [HuggingFace Hub](https://github.com/huggingface/huggingface_hub)
 - [PyTorch](https://pytorch.org/)

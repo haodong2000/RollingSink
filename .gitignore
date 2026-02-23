@@ -6,3 +6,4 @@ wan_models
 checkpoints
 videos
 logs
+.gradio_cache
