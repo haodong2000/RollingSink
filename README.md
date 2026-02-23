@@ -41,9 +41,7 @@ cd RollingSink
 conda create -n RS python=3.10 -y
 conda activate RS
 pip install -r requirements.txt
-pip install flash-attn --no-build-isolation
 ```
-> The installation of `flash-attn` may take hours. Thank you for your patience.
 3. Download checkpoints:
 ```
 sh shell_scripts/download_ckpt.sh
