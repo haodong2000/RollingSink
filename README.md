@@ -33,8 +33,8 @@ Please clink the figure below to watch the teaser video on [YouTube](https://www
 
 1. Clone the repository:
 ```
-git clone https://github.com/haodong2000/Rolling-Sink.git
-cd Rolling-Sink
+git clone https://github.com/haodong2000/RollingSink.git
+cd RollingSink
 ```
 2. Install dependencies using conda:
 ```
