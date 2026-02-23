@@ -6,7 +6,7 @@
 
 [![Page](https://img.shields.io/badge/Project-Page-pink?logo=googlechrome&logoColor=white)](https://rolling-sink.github.io/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.07775)
-[![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-yellow)](https://huggingface.co/spaces/haodongli/Rolling-Sink)
+[![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-yellow)](https://huggingface.co/spaces/haodongli/RollingSink)
 [![Gallery](https://img.shields.io/badge/Gallery-5~30min%20Videos-red?logo=youtube)](https://www.youtube.com/watch?v=U1eAGF_jcxI&list=PLIfXMX0d4BSJO_S3Wte7SAZpcdSFmZEvD)
 
 [Haodong Li](https://haodong2000.github.io/)<sup>1</sup>,
@@ -24,7 +24,7 @@ Please clink the figure below to watch the teaser video on [YouTube](https://www
 [![Demo video](https://img.youtube.com/vi/oNFHLi6vrHI/maxresdefault.jpg)](https://www.youtube.com/watch?v=oNFHLi6vrHI)
 
 ## 📢 News
-- DEMO COMING SOON...
+- 2026-02-22 Demo ([local](https://github.com/haodong2000/RollingSink?tab=readme-ov-file#-gradio-demo) & [online](https://huggingface.co/spaces/haodongli/RollingSink)) released!
 - 2026-02-11 Code released!
 - 2026-02-10 [Paper](https://arxiv.org/abs/2602.07775) released on arXiv!
 
@@ -50,7 +50,11 @@ sh shell_scripts/download_ckpt.sh
 ```
 
 ## 🤗 Gradio Demo
-COMING SOON...
+1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/RollingSink)
+2. Local demo:
+```
+python app.py
+```
 
 ## 🕹️ Inference
 1. Prepare prompts under `prompts/`

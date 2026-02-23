@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=7
+export CUDA_VISIBLE_DEVICES=3
 
 PROMPTS_DIR="prompts/example"
 OUT_DIR="videos/example"

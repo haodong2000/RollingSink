@@ -251,12 +251,6 @@ class CausalInferencePipeline(torch.nn.Module):
             vae_start.record()
 
         # Step 4: Decode the output
-        del self.generator
-        del self.text_encoder
-        del self.kv_cache1
-        del self.crossattn_cache
-        torch.cuda.empty_cache()
-        torch.cuda.synchronize()
         video = self.vae.decode_to_pixel(output, use_cache=False, return_in_cpu=True)
         video = (video * 0.5 + 0.5).clamp(0, 1)
 
