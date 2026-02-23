@@ -50,8 +50,8 @@ sh shell_scripts/download_ckpt.sh
 ```
 
 ## 🤗 Gradio Demo
-1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/RollingSink)
-2. Local demo:
+1. Run the demo online: [HF Space](https://huggingface.co/spaces/haodongli/RollingSink)
+2. Run it locally:
 ```
 python app.py
 ```
