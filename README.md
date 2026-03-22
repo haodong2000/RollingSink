@@ -27,7 +27,7 @@ Please click the figure below to watch the teaser video on [YouTube](https://www
 
 ## 📢 News
 - 2026-03-14 Add [Causal Forcing](https://thu-ml.github.io/CausalForcing.github.io/) as a new base model option!
-- 2026-02-22 Demo ([local](https://github.com/haodong2000/RollingSink?tab=readme-ov-file#-gradio-demo) & [online](https://huggingface.co/spaces/haodongli/RollingSink)) released!
+- 2026-02-22 Demo ([local](https://github.com/Rolling-Sink/Rolling-Sink?tab=readme-ov-file#-gradio-demo) & [online](https://huggingface.co/spaces/haodongli/RollingSink)) released!
 - 2026-02-11 Code released!
 - 2026-02-10 [Paper](https://arxiv.org/abs/2602.07775) released on arXiv!
 
@@ -36,7 +36,7 @@ Please click the figure below to watch the teaser video on [YouTube](https://www
 
 1. Clone the repository:
 ```
-git clone https://github.com/haodong2000/RollingSink.git
+git clone https://github.com/Rolling-Sink/Rolling-Sink.git
 cd RollingSink
 ```
 2. Install dependencies using conda:
